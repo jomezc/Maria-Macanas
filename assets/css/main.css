@@ -1,0 +1,56 @@
+
+/* creado por Jesús Gómez Cánovas, seguimos la nomenclatura recomendada para jekyll */
+.titulo{
+    width: auto;
+    /*height: fit-content;*/
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    background: #333;
+    margin: 0 auto;
+    grid-column:1/9;
+    font-size: 1rem;
+    padding: 2rem;
+    margin-bottom: 4em;
+}
+
+.contenido1 {
+    width: auto;
+    background: rgb(20, 192, 183);
+    color: rgb(19, 14, 14);
+    margin: 0 auto;
+    margin-bottom: 4em;
+    
+}
+
+.contenido2 {
+    width: auto;
+    background: rgb(20, 143, 192);
+    color: rgb(19, 14, 14);
+    margin: 0 auto;
+    margin-bottom: 4em;
+    
+}
+
+body{
+    width: auto;
+    color: #0101;
+    background: rgb(209, 209, 202);
+    grid-template-columns: 
+    1fr [container-start]repeat(6,minmax(100px,250px))[container-end] 1 fr;
+
+}
+
+footer{
+    width:auto;
+    grid-column:1/9;
+    background: #333;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: auto;
+    color: #fff;
+    margin-bottom: 4em;
+}
+
+/** Images */
+img { max-width: 100%; vertical-align: middle; }

@@ -1,0 +1,32 @@
+ <!-- creado por Jesús Gómez Cánovas, seguimos la nomenclatura recomendada para jekyll-->
+<!DOCTYPE html>
+<html lang="es">
+ <head> <!-- CABECERA  con codificación, compatibilidad, meta y titulo-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>María Macanás</title>
+  <link rel="stylesheet" href={{ "/assets/css/main.css" | relative_url }}>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <!-- ... href="assets/css/main.css"> tambíen funciona-->
+ </head>
+ <body> <!-- CUERPO con "contenedores"-->
+     <div class = "titulo">
+       <img src={{ "/assets/images/logo.png" | relative_url }} class = "logo">
+        {{page.title}} <!-- <h1>XXX</h1>-->
+        <p  {{page.description}}></p>
+     </div>
+     <div class = "contenido1">
+        {{ content }}
+     </div>
+     <div class = "contenido2">
+    <h2> información más reciente </h2>
+    </div>
+    <footer>
+        <p>metemos la información de contacto y enlaces de redes sociales </p>
+    </footer >
+
+ </body>
+</html>
+
+
