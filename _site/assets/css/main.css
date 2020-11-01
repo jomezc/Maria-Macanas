@@ -37,6 +37,7 @@ body{
     background: rgb(209, 209, 202);
     grid-template-columns: 
     1fr [container-start]repeat(6,minmax(100px,250px))[container-end] 1 fr;
+    grid-gap:2em 1em;
 
 }
 

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{{ content }}
+
+<ul class="contenido2">
+{% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title}}</a>
+    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </li>
+{% endfor %}
+</ul>
+
+<section class = "ir-posts">
+    <h2>+info</h2>
+    {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title}}</a>
+    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </li>
+{% endfor %}
+</ul>
+</section>

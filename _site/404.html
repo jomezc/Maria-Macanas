@@ -6,21 +6,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>María Macanás</title>
-  <link rel="stylesheet" href={{ "/assets/css/main.css" | relative_url }}>
+  <link rel="stylesheet" href=/assets/css/main.css>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
   <!-- ... href="assets/css/main.css"> tambíen funciona-->
  </head>
  <body> <!-- CUERPO con "contenedores"-->
      <div class = "titulo">
-       <img class = "logo" src= {{ "/assets/img/logoweb.jpg" | relative_url }} >
-       <img src= "{{ '/assets/img/m.jpg' | relative_url }}">
-       <img src="{{ site.baseurl }}/path/to/img/logoweb.jpg">
+       <img class = "logo" src= /assets/img/logoweb.jpg >
+       <img src= "/assets/img/m.jpg">
+       <img src="/path/to/img/logoweb.jpg">
 
-        {{page.title}} <!-- <h1>XXX</h1>-->
-        <p  {{page.description}}></p>
+         <!-- <h1>XXX</h1>-->
+        <p  ></p>
      </div>
      <div class = "contenido1">
-        {{ content }}
+        <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+
      </div>
      <div class = "contenido2">
     <h2> información más reciente </h2>

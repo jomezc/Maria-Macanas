@@ -6,21 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>María Macanás</title>
-  <link rel="stylesheet" href={{ "/assets/css/main.css" | relative_url }}>
+  <link rel="stylesheet" href=/assets/css/main.css>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
   <!-- ... href="assets/css/main.css"> tambíen funciona-->
  </head>
  <body> <!-- CUERPO con "contenedores"-->
      <div class = "titulo">
-       <img class = "logo" src= {{ "/assets/img/logoweb.jpg" | relative_url }} >
-       <img src= "{{ '/assets/img/m.jpg' | relative_url }}">
-       <img src="{{ site.baseurl }}/path/to/img/logoweb.jpg">
+       <img class = "logo" src= /assets/img/logoweb.jpg >
+       <img src= "/assets/img/m.jpg">
+       <img src="/path/to/img/logoweb.jpg">
 
-        {{page.title}} <!-- <h1>XXX</h1>-->
-        <p  {{page.description}}></p>
+        Información2 <!-- <h1>XXX</h1>-->
+        <p  ></p>
      </div>
      <div class = "contenido1">
-        {{ content }}
+        <h4 id="a-full">a full</h4>
+
+<p>hasta ahora</p>
+
      </div>
      <div class = "contenido2">
     <h2> información más reciente </h2>
