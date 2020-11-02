@@ -112,13 +112,21 @@ footer{
     text-decoration:none
 
 }
-/* sin usar debido a que no me redimensiona la imagen bien*/
-#Imagencambiante{ animation: changeBg 20s infinite ;width: 100%;
-    max-width: auto;
-    height: auto;}
+
+#Imagencambiante{ animation: changeBg 20s infinite ;
+    background-attachment: fixed;    
+    height: 98vw;
+    width: 98vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @keyframes changeBg{
-    0%   {background-image: url("/assets/img/fit.jpg");}
-   100% {background-image: url("/assets/img/LOGOGR.jpg");}
+    0%   {background-image: url("/assets/img/bal.jpg");}
+    25% {background-image: url("/assets/img/fla.png");}
+    75% {background-image: url("/assets/img/FIT.jpg");}
+    100%   {background-image: url("/assets/img/bal.jpg");}
+
 }
 
 h2{
