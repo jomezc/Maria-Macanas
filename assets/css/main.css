@@ -114,11 +114,11 @@ footer{
 }
 /* sin usar debido a que no me redimensiona la imagen bien*/
 #Imagencambiante{ animation: changeBg 20s infinite ;width: 100%;
-    max-width: 50%;
+    max-width: auto;
     height: auto;}
 @keyframes changeBg{
-    0%   {background-image: url("/assets/img/1.jpg");}
-   100% {background-image: url("/assets/img/2.jpg");}
+    0%   {background-image: url("/assets/img/fit.jpg");}
+   100% {background-image: url("/assets/img/LOGOGR.jpg");}
 }
 
 h2{
