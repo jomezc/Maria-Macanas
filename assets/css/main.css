@@ -2,56 +2,127 @@
 /* creado por Jesús Gómez Cánovas, seguimos la nomenclatura recomendada para jekyll */
 .titulo{
     width: auto;
-    /*height: fit-content;*/
+    height: fit-content;
     color: #fff;
     font-family: 'Dancing Script', cursive;
-    background: #333;
+    background: rgb(0, 0, 0);
     margin: 0 auto;
-    grid-column:1/9;
-    font-size: 1rem;
-    padding: 2rem;
-    margin-bottom: 4em;
+    font-size:4vw;
+    margin-bottom: 1em;
+    
+    
 }
 
+.imglogo
+{
+    width: 100%;
+  max-width: 50%;
+  height: auto;
+}
+
+.imgcontacto{
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+}
+
+.imgccambiante{
+    width: 100%;
+    max-width: auto;
+    height: auto;
+}
 .contenido1 {
     width: auto;
-    background: rgb(20, 192, 183);
+    font-size: 2vw;
+   /* background: rgb(73, 77, 76);*/
     color: rgb(19, 14, 14);
     margin: 0 auto;
     margin-bottom: 4em;
     
 }
 
-.contenido2 {
-    width: auto;
-    background: rgb(20, 143, 192);
-    color: rgb(19, 14, 14);
-    margin: 0 auto;
-    margin-bottom: 4em;
-    
-}
+
 
 body{
     width: auto;
     color: #0101;
-    background: rgb(209, 209, 202);
     grid-template-columns: 
     1fr [container-start]repeat(6,minmax(100px,250px))[container-end] 1 fr;
     grid-gap:2em 1em;
-
+    background-color: #fdfdfd;
+    
 }
 
 footer{
     width:auto;
-    grid-column:1/9;
-    background: #333;
+    background: rgb(0, 0, 0);
     text-align: center;
     margin: 0 auto;
-    padding: 2rem;
-    margin-top: auto;
-    color: #fff;
-    margin-bottom: 4em;
+    padding-top: 0.2 rem;
+    padding-bottom: 0.2 rem;
+    margin-top: 2rem;
 }
 
-/** Images */
-img { max-width: 100%; vertical-align: middle; }
+
+.post-anteriores{
+    background: #333;
+    font-size: 2vw;
+    padding: 2em 0;
+    color: white;
+    display: grid;
+    margin-top: 4em;
+    margin-right: 1em;
+    display: flex;  
+    columns: 100px 2;
+}
+
+.post-descr{
+    color: white;
+    display: grid;
+    display: flex;  
+    margin-right: 5em;
+    display: flex;  
+    columns: 10vw 2;
+  
+}
+
+.enlace{
+        background-color: #f44336; 
+        border: none;
+        color: white;
+        padding: 0.5vw 0.32vw;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2vw;
+        margin: 0.4vw 0.2vw;
+        cursor: pointer;
+        box-shadow: 0 .1vw .16vw 0 rgba(0,0,0,0.2), 0 .1vw .1vw 0 rgba(0,0,0,0.19);
+        
+      };
+
+
+.titulo-blog{
+    font-family: 'Anton', sans-serif;
+    font-size: 4vw;
+    line-height: 1;
+    color: white;
+    text-decoration: none;
+    text-transform:uppercase;
+    transition: opacity ease-out 200ms;
+    text-decoration:none
+
+}
+/* sin usar debido a que no me redimensiona la imagen bien*/
+#Imagencambiante{ animation: changeBg 20s infinite ;width: 100%;
+    max-width: 50%;
+    height: auto;}
+@keyframes changeBg{
+    0%   {background-image: url("/assets/img/1.jpg");}
+   100% {background-image: url("/assets/img/2.jpg");}
+}
+
+h2{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}

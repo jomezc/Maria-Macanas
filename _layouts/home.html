@@ -1,22 +1,51 @@
----
-layout: default
----
-{{ content }}
+ <!-- creado por Jesús Gómez Cánovas, seguimos la nomenclatura recomendada para jekyll-->
+ <!DOCTYPE html>
+ <html lang="es">
+  <head> <!-- CABECERA  con codificación, compatibilidad, meta y titulo-->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>María Macanás</title>
+   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+   <!-- ... href="assets/css/main.css"> tambíen funciona-->
 
-<ul class="contenido2">
-{% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title}}</a>
-    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </li>
-{% endfor %}
-</ul>
-
-<section class = "ir-posts">
-    <h2>+info</h2>
-    {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title}}</a>
-    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </li>
-{% endfor %}
-</ul>
-</section>
+  </head>
+  <body> <!-- CUERPO con "contenedores"-->
+      <div class = "titulo">
+         <a class = "titulo" href="/" title="María Macanás logo">
+             <img alt="María Macanás logo" class = "imglogo" src= "{{ '/assets/img/tituloweb.jpg' | relative_url }}"  />
+         </a>
+      </div>
+      
+     
+ 
+      <div class = "contenido1">
+         {{ content }}
+      </div>
+ 
+      <section class = "post-anteriores">
+         {% for post in site.posts  %}
+         <div >
+         <h1 class = "titulo-blog" >{{ post.title}}</h1>
+        <p class = "post-descr">{{ post.descripcion }}</p>
+        <a class ="enlace" href="{{ post.url }}">Más información</a>
+         </div>
+     {% endfor %}
+     </section>
+ 
+ 
+     <footer>
+         <img class="imgcontacto"  a href="index">
+         <a class = "sin-linea-enlace" href="https://www.facebook.com/MariaMacanasClasesdeDanza/" title="María Macanás contaco">
+             <img alt="María Macanás contaco" class = "imgcontacto" src= "{{ '/assets/img/contacto.png' | relative_url }}"  />
+         </a>
+     </footer >
+ 
+  </body>
+ </html>
+ 
+ 
+ 

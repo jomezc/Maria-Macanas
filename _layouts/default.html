@@ -6,27 +6,76 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>María Macanás</title>
-  <link rel="stylesheet" href={{ "/assets/css/main.css" | relative_url }}>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <!-- ... href="assets/css/main.css"> tambíen funciona-->
+
+  <script>
+    /**
+     * Array con las imagenes y enlaces que se iran mostrando en la web*/
+    var imagenes=new Array(
+        ['/assets/img/1.jpg','https://www.facebook.com/MariaMacanasClasesdeDanza/'],
+        ["/assets/img/2.jpg",'https://www.facebook.com/MariaMacanasClasesdeDanza/'],
+       
+    );
+    var contador=0;
+ 
+    /* Funcion para cambiar la imagen y link*/
+    function rotarImagenes ()
+    {
+        // cambiamos la imagen y la url
+        contador++
+        document.getElementById("imagen").src=imagenes[contador%imagenes.length][0];
+        document.getElementById("link").href=imagenes[contador%imagenes.length][1];
+    }
+
+    /* Función que se ejecuta una vez cargada la página*/
+    onload=function()
+    {
+        // Cargamos una imagen aleatoria
+        rotarImagenes();
+ 
+        // Indicamos que cada 5 segundos cambie la imagen
+        setInterval(rotarImagenes,5000);
+    }
+</script>
  </head>
  <body> <!-- CUERPO con "contenedores"-->
      <div class = "titulo">
-       <img class = "logo" src= {{ "/assets/img/logoweb.jpg" | relative_url }} >
-       <img src= "{{ '/assets/img/m.jpg' | relative_url }}">
-       <img src="{{ site.baseurl }}/path/to/img/logoweb.jpg">
-
-        {{page.title}} <!-- <h1>XXX</h1>-->
-        <p  {{page.description}}></p>
+        <a class = "titulo" href="/" title="María Macanás logo">
+            <img alt="María Macanás logo" class = "imglogo" src= "{{ '/assets/img/tituloweb.jpg' | relative_url }}"  />
+        </a>
      </div>
+     
+     <div >
+     <a  href="" id="link"><img class="imgccambiante" src="" id="imagen"></a>
+    </div>
+         
+    
+
      <div class = "contenido1">
+      <h2 >Baile como estilo de vida</h2>
         {{ content }}
      </div>
-     <div class = "contenido2">
-    <h2> información más reciente </h2>
-    </div>
+
+     <section class = "post-anteriores">
+        {% for post in site.posts  %}
+        <div >
+        <h1 class = "titulo-blog" >{{ post.title}}</h1>
+       <p class = "post-descr">{{ post.descripcion }}</p>
+       <a class ="enlace" href="{{ post.url }}">Más información</a>
+        </div>
+    {% endfor %}
+    </section>
+
+
     <footer>
-        <p>metemos la información de contacto y enlaces de redes sociales </p>
+        <img class="imgcontacto"  a href="index">
+        <a class = "sin-linea-enlace" href="https://www.facebook.com/MariaMacanasClasesdeDanza/" title="María Macanás contaco">
+            <img alt="María Macanás contaco" class = "imgcontacto" src= "{{ '/assets/img/contacto.png' | relative_url }}"  />
+        </a>
     </footer >
 
  </body>
