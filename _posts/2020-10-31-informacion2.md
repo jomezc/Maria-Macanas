@@ -1,7 +1,7 @@
 ---
 title: CLASES ADULTOS
 descripcion: Información sobre las clases paraa dultos que de pilates y fitnes que se imparten en el centro de la mujer de los dolores
-layout: home
+layout: default
 ---
 #### Clases Adultos
 

@@ -1,7 +1,7 @@
 ---
 title: CLASES DE DANZA
 descripcion: Información sobre las clases que impartimos de danza, grupos, edades y estilos
-layout: home
+layout: default
 ---
 #### Clases De Danza
 

@@ -65,13 +65,12 @@ footer{
 
 
 .post-anteriores{
-    background: #333;
+    background:#313131;
     font-size: 2vw;
     padding: 2em 0;
     color: white;
     display: grid;
     margin-top: 4em;
-    margin-right: 1em;
     display: flex;  
     columns: 100px 2;
 }
@@ -87,9 +86,9 @@ footer{
 }
 
 .enlace{
-        background-color: #f44336; 
+        background-color: #a31869; 
         border: none;
-        color: white;
+        color: WHITE;
         padding: 0.5vw 0.32vw;
         text-align: center;
         text-decoration: none;

@@ -1,29 +1,63 @@
  <!-- creado por Jesús Gómez Cánovas, seguimos la nomenclatura recomendada para jekyll-->
- <!DOCTYPE html>
- <html lang="es">
-  <head> <!-- CABECERA  con codificación, compatibilidad, meta y titulo-->
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>María Macanás</title>
-   <link rel="stylesheet" href="/assets/css/main.css">
-   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-   <!-- ... href="assets/css/main.css"> tambíen funciona-->
+<!DOCTYPE html>
+<html lang="es">
+ <head> <!-- CABECERA  con codificación, compatibilidad, meta y titulo-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>María Macanás</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <!-- ... href="assets/css/main.css"> tambíen funciona-->
 
-  </head>
-  <body> <!-- CUERPO con "contenedores"-->
-      <div class = "titulo">
-         <a class = "titulo" href="/" title="María Macanás logo">
-             <img alt="María Macanás logo" class = "imglogo" src= "/assets/img/tituloweb.jpg"  />
-         </a>
-      </div>
-      
-     
+  <script>
+    /**
+     * Array con las imagenes y enlaces que se iran mostrando en la web*/
+    var imagenes=new Array(
+        ['/assets/img/1.jpg','https://www.facebook.com/MariaMacanasClasesdeDanza/'],
+        ["/assets/img/2.jpg",'https://www.facebook.com/MariaMacanasClasesdeDanza/'],
+       
+    );
+    var contador=0;
  
-      <div class = "contenido1">
-         <h4 id="clases-adultos">Clases Adultos</h4>
+    /* Funcion para cambiar la imagen y link*/
+    function rotarImagenes ()
+    {
+        // cambiamos la imagen y la url
+        contador++
+        document.getElementById("imagen").src=imagenes[contador%imagenes.length][0];
+        document.getElementById("link").href=imagenes[contador%imagenes.length][1];
+    }
+
+    /* Función que se ejecuta una vez cargada la página*/
+    onload=function()
+    {
+        // Cargamos una imagen aleatoria
+        rotarImagenes();
+ 
+        // Indicamos que cada 5 segundos cambie la imagen
+        setInterval(rotarImagenes,5000);
+    }
+</script>
+ </head>
+ <body> <!-- CUERPO con "contenedores"-->
+     <div class = "titulo">
+        <a class = "titulo" href="/" title="María Macanás logo">
+            <img alt="María Macanás logo" class = "imglogo" src= "/assets/img/tituloweb.jpg"  />
+        </a>
+     </div>
+     
+     <div >
+     <a  href="" id="link"><img class="imgccambiante" src="" id="imagen"></a>
+    </div>
+         
+    
+
+     <div class = "contenido1">
+      <h2 >Baile como estilo de vida</h2>
+        <h4 id="clases-adultos">Clases Adultos</h4>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet metus rutrum, cursus nisi id, pharetra arcu. Suspendisse lectus ex, aliquam vel purus nec, scelerisque convallis mi. Donec feugiat quam eget dui tempor, vel tristique orci faucibus. Praesent urna libero, molestie vitae ipsum id, pretium tincidunt nisl. Duis at ex sed tortor fermentum condimentum. Aliquam auctor ex sit amet sem molestie aliquam. Maecenas dolor tellus, ullamcorper ut placerat sed, venenatis nec velit. Etiam a felis pharetra, posuere ligula vel, imperdiet urna. Curabitur iaculis ex id eros aliquam tempus. Cras at massa in nunc viverra congue ut id libero. Donec vehicula eleifend nisl, vitae gravida magna aliquet porta. Vestibulum bibendum tincidunt sodales.</p>
 
@@ -35,34 +69,33 @@
 
 <p>Pellentesque ligula sapien, tempor vel tellus eget, finibus efficitur arcu. Sed lobortis lacus eu risus vulputate lacinia ac ac libero. Pellentesque tempor neque vel ligula egestas ultrices. Mauris eu ornare ex. Fusce vel tincidunt enim. Morbi rhoncus, nibh a elementum efficitur, orci dolor tincidunt leo, eu scelerisque purus dolor sit amet elit. In blandit euismod felis id pellentesque. Curabitur quis fermentum felis. Maecenas sit amet rhoncus tortor. Aliquam suscipit sapien vitae nunc sagittis, in pharetra nisi rutrum. Pellentesque sodales massa sed hendrerit fringilla. Vestibulum quis ligula mi.</p>
 
-      </div>
- 
-      <section class = "post-anteriores">
-         
-         <div >
-         <h1 class = "titulo-blog" >CLASES ADULTOS</h1>
-        <p class = "post-descr">Información sobre las clases paraa dultos que de pilates y fitnes que se imparten en el centro de la mujer de los dolores</p>
-        <a class ="enlace" href="/2020/10/31/informacion2.html">Más información</a>
-         </div>
-     
-         <div >
-         <h1 class = "titulo-blog" >CLASES DE DANZA</h1>
-        <p class = "post-descr">Información sobre las clases que impartimos de danza, grupos, edades y estilos</p>
-        <a class ="enlace" href="/2020/10/31/informacion.html">Más información</a>
-         </div>
-     
-     </section>
- 
- 
-     <footer>
-         <img class="imgcontacto"  a href="index">
-         <a class = "sin-linea-enlace" href="https://www.facebook.com/MariaMacanasClasesdeDanza/" title="María Macanás contaco">
-             <img alt="María Macanás contaco" class = "imgcontacto" src= "/assets/img/contacto.png"  />
-         </a>
-     </footer >
- 
-  </body>
- </html>
- 
- 
- 
+     </div>
+
+     <section class = "post-anteriores">
+        
+        <div >
+        <h1 class = "titulo-blog" >CLASES ADULTOS</h1>
+       <p class = "post-descr">Información sobre las clases paraa dultos que de pilates y fitnes que se imparten en el centro de la mujer de los dolores</p>
+       <a class ="enlace" href="/2020/10/31/informacion2.html">Más información</a>
+        </div>
+    
+        <div >
+        <h1 class = "titulo-blog" >CLASES DE DANZA</h1>
+       <p class = "post-descr">Información sobre las clases que impartimos de danza, grupos, edades y estilos</p>
+       <a class ="enlace" href="/2020/10/31/informacion.html">Más información</a>
+        </div>
+    
+    </section>
+
+
+    <footer>
+        <img class="imgcontacto"  a href="index">
+        <a class = "sin-linea-enlace" href="https://www.facebook.com/MariaMacanasClasesdeDanza/" title="María Macanás contaco">
+            <img alt="María Macanás contaco" class = "imgcontacto" src= "/assets/img/contacto.png"  />
+        </a>
+    </footer >
+
+ </body>
+</html>
+
+
