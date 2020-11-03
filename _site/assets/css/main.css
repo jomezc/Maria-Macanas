@@ -82,7 +82,9 @@ footer{
     color: white;
     display: grid;
     margin-top: 4em;
+    padding-left: 3vw;
     display: flex;  
+    max-lines: 10vw;
     columns: 100px 2;
 }
 
@@ -92,7 +94,6 @@ footer{
     display: flex;  
     margin-right: 5em;
     display: flex;  
-    columns: 10vw 2;
   
 }
 
@@ -191,11 +192,12 @@ div#pase figure {
 
 
 .video {
-    margin-top: 2vw;
+    
     display: block;
     margin: 0 auto;
+    height: 40vw;
     width: 60vw;
-    height: 40vw ;
     max-width: auto;
+    
 
 }
