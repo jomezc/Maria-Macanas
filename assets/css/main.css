@@ -31,6 +31,16 @@
     max-width: auto;
     height: auto;
 }
+
+.imgcontenido{
+    width: 100%;
+    max-width: auto;
+    height: 100%;
+    background-attachment: fixed;    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .contenido1 {
     width: auto;
     font-size: 2vw;
@@ -38,6 +48,7 @@
     color: rgb(19, 14, 14);
     margin: 0 auto;
     margin-bottom: 4em;
+
     
 }
 
