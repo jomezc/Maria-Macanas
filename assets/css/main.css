@@ -169,8 +169,7 @@ div#pase figure {
     background: #cc17e4;
     position: absolute;
     bottom: 0;
-    
-    animation: lineador 5s ease infinite; 
+    animation: linea 20s ease ; 
     
 }
 
@@ -181,7 +180,7 @@ div#pase figure {
     100%{left: 0%;}
 }        
 
-@keyframes lineador{
+@keyframes linea{
     from{
         left: -100%;
     }
