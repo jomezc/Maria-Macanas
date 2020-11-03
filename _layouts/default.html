@@ -75,7 +75,7 @@
         <div >
         <h1 class = "titulo-blog" >{{ post.title}}</h1>
        <p class = "post-descr">{{ post.descripcion }}</p>
-       <a class ="enlace" href="{{ post.url }}">Más información</a>
+       <a class ="enlace" href="{{ post.url | relative_url}}">Más información</a>
         </div>
     {% endfor %}
     </section>
