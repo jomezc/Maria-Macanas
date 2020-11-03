@@ -113,7 +113,7 @@ footer{
 
 }
 
-#Imagencambiante{ animation: changeBg 20s infinite ;
+#Imagencambiante{ animation: changeBg 25s ;
     background-attachment: fixed;    
     height: 98vw;
     width: 98vw;
@@ -126,7 +126,7 @@ footer{
     0%{background-image: url("/Maria-Macanas/assets/img/bal.jpg");} 
     25% {background-image: url("/Maria-Macanas/assets/img/fla.png");}
     75% {background-image: url("/Maria-Macanas/assets/img/FIT.jpg");}
-    100%   {background-image: url("/Maria-Macanas/assets/img/bal.jpg");}
+    100%   {background-image: url("/Maria-Macanas/assets/img/FIT.jpg");}
 
 }
 
