@@ -9,6 +9,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet metus rutr
 
 Quisque pretium, eros vitae congue dictum, mauris mi blandit lectus, eu semper libero felis non sem. Aliquam finibus, eros non porta dapibus, eros leo dignissim turpis, eget ornare massa risus vitae nibh. Etiam maximus mauris quis ipsum tincidunt volutpat. Proin efficitur semper ante sit amet dignissim. Donec egestas pellentesque hendrerit. Ut justo risus, ornare quis eros id, dignissim ullamcorper leo. Vivamus ac leo condimentum, feugiat turpis non, tincidunt dolor.
 
+  ![image]({{ "/assets/img/fla.jpg" | relative_url }}){:class="imgccambiante"}
+
+
 Fusce nec enim at arcu vehicula porttitor. Quisque eget pellentesque nisi. Sed a porta ipsum, ac maximus ipsum. Sed in dictum ex. Suspendisse sodales erat vitae mi dignissim, eu lacinia nisl ultricies. Sed nulla eros, dictum eu orci eget, convallis interdum urna. Curabitur erat eros, aliquam a nibh sed, venenatis sollicitudin ante. Donec finibus risus et sapien gravida, in iaculis nunc sollicitudin.
 
 Nulla nisi metus, vulputate vel felis ac, rhoncus iaculis sem. In metus ex, porttitor placerat arcu id, tristique vulputate libero. Nullam vitae hendrerit nulla. Aliquam ullamcorper libero et faucibus sodales. Proin id faucibus lacus. Praesent mollis nisl et libero lacinia, malesuada lacinia nulla malesuada. Integer tincidunt mi quis imperdiet accumsan. Aliquam hendrerit nulla ante.
