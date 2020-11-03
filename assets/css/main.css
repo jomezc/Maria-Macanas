@@ -134,16 +134,8 @@ footer{
     background-size: cover;
 }
 
-/*
-@keyframes changeBg{
-    0%{background-image: ;} 
-    25% {background-image: url("/assets/img/fla.png");}
-    75% {background-image: url("/assets/img/FIT.jpg");}
-    100%   {background-image: url("/assets/img/FIT.jpg");}
 
-}
-*/
-.auto-slider{
+.pase-automatico{
     position: relative;
     box-sizing: content-box;
     display: inline-block;
@@ -157,20 +149,20 @@ footer{
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
 }
 
-div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: left; }
-div#slider figure { 
+div#pase { overflow: hidden; }
+div#pase figure img { width: 20%; float: left; }
+div#pase figure { 
   position: relative;
   width: 500%;
   margin: 0;
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 20s sliding ease ; 
+  animation: 20s moverse-izq ease ; 
 }
 
-/* Slider indicator */
-.indicator{
+/* pase linea */
+.linea{
     width: 100%;
     max-width: auto;
     height: 6px;
@@ -178,18 +170,18 @@ div#slider figure {
     position: absolute;
     bottom: 0;
     
-    animation: indicating 5s ease infinite; 
+    animation: lineador 5s ease infinite; 
     
 }
 
-@keyframes sliding{
+@keyframes moverse-izq{
     0%{left: 0%; }
     20%{left: -100%;}
     40%{left: -200%;}
     100%{left: 0%;}
 }        
 
-@keyframes indicating{
+@keyframes lineador{
     from{
         left: -100%;
     }

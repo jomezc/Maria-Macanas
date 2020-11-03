@@ -9,59 +9,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-  <!-- ... href="assets/css/main.css"> tambíen funciona-->
- <!--
-  <script>
-    /**
-     * Array con las imagenes y enlaces que se iran mostrando en la web*/
-    var imagenes=new Array(
-        ['/assets/img/fit.jpg','https://www.facebook.com/MariaMacanasClasesdeDanza/'],
-        ["/assets/img/bal.jpg",'https://www.facebook.com/MariaMacanasClasesdeDanza/'],
-       
-    );
-    var contador=0;
- 
-    /* Funcion para cambiar la imagen y link*/
-    function rotarImagenes ()
-    {
-        // cambiamos la imagen y la url
-        contador++
-        document.getElementById("imagen").src=imagenes[contador%imagenes.length][0];
-        document.getElementById("link").href=imagenes[contador%imagenes.length][1];
-    }
-
-    /* Función que se ejecuta una vez cargada la página*/
-    onload=function()
-    {
-        // Cargamos una imagen aleatoria
-        rotarImagenes();
- 
-        // Indicamos que cada 5 segundos cambie la imagen
-        setInterval(rotarImagenes,5000);
-    }
-</script> NO FUNCIONA AL SUBIR EL REPO EN LOCAL SI -->
+  <!--Realizado por Jesús Gómez Cánovas de forma manual, siguiendo la guía de jekyll ,www.w3schools.com
+    ,stackoverflow.com,webdesginerwall-->
  </head>
  <body> <!-- CUERPO con "contenedores"-->
      <div class = "titulo">
-        <a class = "titulo" href="/" title="María Macanás logo">
+        <a class = "titulo" href="/Maria-Macanas/" title="María Macanás logo">
             <img alt="María Macanás logo" class = "imglogo" src= "/assets/img/tituloweb.jpg"  />
         </a>
      </div>
      
-     <div> <!--id="Imagencambiante">-->
-      <!--<a  href="" id="link"><img class="imgccambiante" src="" id="imagen"></a> no funciona en github-->
+    
 
-    </div>
-
-    <section class="auto-slider">
-        <div id="slider">
+    <section class="pase-automatico">
+        <div id="pase">
             <figure>
                 
-                <img src="/assets/img/fit.jpg"  alt="Image">
-                <img src="/assets/img/fit.jpg"  alt="Image">   
-                <img src="/assets/img/fit.jpg"  alt="Image">            
+                <img src="/assets/img/fit.jpg"  alt="fit">
+                <img src="/assets/img/fit.jpg"  alt="fit">   
+                <img src="/assets/img/fit.jpg"  alt="fit">            
             </figure>
-            <div class="indicator"></div>
+            <div class=""></div>
 </div>
 </section>
 
