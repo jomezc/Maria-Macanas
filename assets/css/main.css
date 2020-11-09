@@ -39,14 +39,16 @@
     height: auto;
 }
 
-.imgcontenido{
-    width: 80%;
-    max-width: auto;
-    height: 80%;
-    background-attachment: fixed;    
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+    .imgcontenido{
+        width: 80%;
+        max-width: auto;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
 }
 .contenido1 {
     width: auto;
