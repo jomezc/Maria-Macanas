@@ -124,15 +124,6 @@ footer{
 
 }
 
-#Imagencambiante{ animation: changeBg 25s ;
-    background-attachment: fixed;    
-    height: 98vw;
-    width: 98vw;
-    
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 .pase-automatico{
@@ -140,7 +131,7 @@ footer{
     box-sizing: content-box;
     display: inline-block;
     padding: 10px 10px 20px;
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     max-width:  auto;
     margin: 0 auto;
 
@@ -158,10 +149,9 @@ div#pase figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 20s moverse-izq ease ; 
+  animation: 15s moverse-izq ease ; 
 }
 
-/* pase linea */
 .linea{
     width: 100%;
     max-width: auto;
@@ -169,15 +159,15 @@ div#pase figure {
     background: #cc17e4;
     position: absolute;
     bottom: 0;
-    animation: linea 20s ease ; 
+    animation: linea 15s ease ; 
     
 }
 
 @keyframes moverse-izq{
-    0%{left: 0%; }
-    20%{left: -100%;}
-    40%{left: -200%;}
+    0%{left: -200%; }
+    50%{left: -100%;}
     100%{left: 0%;}
+
 }        
 
 @keyframes linea{
@@ -194,6 +184,9 @@ div#pase figure {
     
     display: block;
     margin: 0 auto;
+    max-width: 100%;
+    width: 60vw;
+    height: 34vw;
     
 
 }

@@ -24,19 +24,21 @@
     <section class="pase-automatico">
         <div id="pase">
             <figure>
+               
                 
-                <img src="{{ '/assets/img/fit.jpg' | relative_url }}"  alt="fit">
-                <img src="{{ '/assets/img/fit.jpg' | relative_url }}"  alt="fit">   
-                <img src="{{ '/assets/img/fit.jpg' | relative_url }}"  alt="fit">            
+                <img src="{{ '/assets/img/03.png' | relative_url }}"  alt="fit">   
+                <img src="{{ '/assets/img/02.png' | relative_url }}"  alt="fit">  
+                <img src="{{ '/assets/img/01.png' | relative_url }}"  alt="fit">         
             </figure>
             <div class="linea"></div>
-</div>
-</section>
+            <div -id="Imagencambiante">
+                <a  href="" id="link"><img class="imgccambiante" src="" id="imagen"></a> 
+          
+              </div>
+        </div>
+    </section>
 
-     <div class = "contenido1">
-      <h2 >Baile como estilo de vida</h2>
-        {{ content }}
-     </div>
+
 
      <section class = "post-anteriores">
         {% for post in site.posts  %}

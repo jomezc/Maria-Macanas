@@ -1,21 +1,29 @@
 ---
-title: CLASES DE DANZA
+title: CLASES PARA NIÑOS Y JOVENES
 descripcion: Información sobre las clases que impartimos de danza, grupos, edades y estilos
 layout: home
 ---
-#### Clases De Danza
+#### CLASES PARA NIÑOS Y JOVENES 
 
-<iframe class = "video" src="https://youtu.be/6l9I39p2luA" frameborder="0" allowfullscreen></iframe>
+Clases desde 3 años, impartidas por María Macanás, Licenciada en Ciencias de la Actividad Física y el Deporte, donde trabajamos desde una buena higiene postural para que los niños tengan el mejor desarrollo físico, pasando por diferentes estilos de baile, hasta mejorar su autoestima, confianza y amor por la danza y sus compañeros.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet metus rutrum, cursus nisi id, pharetra arcu. Suspendisse lectus ex, aliquam vel purus nec, scelerisque convallis mi. Donec feugiat quam eget dui tempor, vel tristique orci faucibus. Praesent urna libero, molestie vitae ipsum id, pretium tincidunt nisl. Duis at ex sed tortor fermentum condimentum. Aliquam auctor ex sit amet sem molestie aliquam. Maecenas dolor tellus, ullamcorper ut placerat sed, venenatis nec velit. Etiam a felis pharetra, posuere ligula vel, imperdiet urna. Curabitur iaculis ex id eros aliquam tempus. Cras at massa in nunc viverra congue ut id libero. Donec vehicula eleifend nisl, vitae gravida magna aliquet porta. Vestibulum bibendum tincidunt sodales.
+#### MODERNO
 
-Quisque pretium, eros vitae congue dictum, mauris mi blandit lectus, eu semper libero felis non sem. Aliquam finibus, eros non porta dapibus, eros leo dignissim turpis, eget ornare massa risus vitae nibh. Etiam maximus mauris quis ipsum tincidunt volutpat. Proin efficitur semper ante sit amet dignissim. Donec egestas pellentesque hendrerit. Ut justo risus, ornare quis eros id, dignissim ullamcorper leo. Vivamus ac leo condimentum, feugiat turpis non, tincidunt dolor.
+Aprendemos los diferentes movimientos de bailes de moda… a la vez que fortalecemos nuestro cuerpo.
 
-  ![image]({{ "/assets/img/fla.png" | relative_url }}){:class="imgccambiante"}
+ ![image]({{ "/assets/img/moderno.png" | relative_url }}){:class="imgccambiante"}
 
+#### FLAMENCO
 
-Fusce nec enim at arcu vehicula porttitor. Quisque eget pellentesque nisi. Sed a porta ipsum, ac maximus ipsum. Sed in dictum ex. Suspendisse sodales erat vitae mi dignissim, eu lacinia nisl ultricies. Sed nulla eros, dictum eu orci eget, convallis interdum urna. Curabitur erat eros, aliquam a nibh sed, venenatis sollicitudin ante. Donec finibus risus et sapien gravida, in iaculis nunc sollicitudin.
+Nos acercamos al arte de esta disciplina con sus ritmos y movimientos tan característicos.
 
-Nulla nisi metus, vulputate vel felis ac, rhoncus iaculis sem. In metus ex, porttitor placerat arcu id, tristique vulputate libero. Nullam vitae hendrerit nulla. Aliquam ullamcorper libero et faucibus sodales. Proin id faucibus lacus. Praesent mollis nisl et libero lacinia, malesuada lacinia nulla malesuada. Integer tincidunt mi quis imperdiet accumsan. Aliquam hendrerit nulla ante.
+ ![image]({{ "/assets/img/flamenco.png" | relative_url }}){:class="imgccambiante"}
 
-Pellentesque ligula sapien, tempor vel tellus eget, finibus efficitur arcu. Sed lobortis lacus eu risus vulputate lacinia ac ac libero. Pellentesque tempor neque vel ligula egestas ultrices. Mauris eu ornare ex. Fusce vel tincidunt enim. Morbi rhoncus, nibh a elementum efficitur, orci dolor tincidunt leo, eu scelerisque purus dolor sit amet elit. In blandit euismod felis id pellentesque. Curabitur quis fermentum felis. Maecenas sit amet rhoncus tortor. Aliquam suscipit sapien vitae nunc sagittis, in pharetra nisi rutrum. Pellentesque sodales massa sed hendrerit fringilla. Vestibulum quis ligula mi.
+#### CONTEMPORÁNEO
+
+Sensibilidad, elegancia, expresión corporal son algunos de los aspectos que se trabajan en estas clases.
+
+ ![image]({{ "/assets/img/bal.jpg" | relative_url }}){:class="imgccambiante"}
+
+DESFILES 
+<iframe class = "video" src="{{ '/assets/img/desfile.mp4' | relative_url }}" frameborder="0" allowfullscreen controls mute=1></iframe>

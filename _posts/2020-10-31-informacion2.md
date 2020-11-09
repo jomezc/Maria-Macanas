@@ -3,19 +3,29 @@ title: CLASES ADULTOS
 descripcion: Información sobre las clases de pilates y fitness para adultos que se imparten en el centro de la mujer de los dolores
 layout: home
 ---
-#### Clases Adultos
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet metus rutrum, cursus nisi id, pharetra arcu. Suspendisse lectus ex, aliquam vel purus nec, scelerisque convallis mi. Donec feugiat quam eget dui tempor, vel tristique orci faucibus. Praesent urna libero, molestie vitae ipsum id, pretium tincidunt nisl. Duis at ex sed tortor fermentum condimentum. Aliquam auctor ex sit amet sem molestie aliquam. Maecenas dolor tellus, ullamcorper ut placerat sed, venenatis nec velit. Etiam a felis pharetra, posuere ligula vel, imperdiet urna. Curabitur iaculis ex id eros aliquam tempus. Cras at massa in nunc viverra congue ut id libero. Donec vehicula eleifend nisl, vitae gravida magna aliquet porta. Vestibulum bibendum tincidunt sodales.
+#### CLASES PARA ADULTOS
 
-Quisque pretium, eros vitae congue dictum, mauris mi blandit lectus, eu semper libero felis non sem. Aliquam finibus, eros non porta dapibus, eros leo dignissim turpis, eget ornare massa risus vitae nibh. Etiam maximus mauris quis ipsum tincidunt volutpat. Proin efficitur semper ante sit amet dignissim. Donec egestas pellentesque hendrerit. Ut justo risus, ornare quis eros id, dignissim ullamcorper leo. Vivamus ac leo condimentum, feugiat turpis non, tincidunt dolor.
+Clases para todos los niveles, impartidas por María Macanás, Licenciada en Ciencias de la Actividad Física y el Deporte, donde trabajamos la salud física y mental, bailando y divirtiéndonos, así como relajándonos y conociendo nuestro cuerpo con el método Pilates.
+
+#### DANCE FIT
+
+Aprendemos coreografías, compuestas por una Licenciada en CAFD para entrenar el cuerpo y perder peso, a la vez que lo pasamos bien.
+
+#### ENTRENAMIENTOS 
+
+Trabajamos el cuerpo con ejercicios específicos para mejorar la forma física y fortalecer los grupos musculares que más nos interesan como glúteos, abdominales…
+
+#### PILATES
+
+Este método nos permite trabajar nuestro cuerpo sin impacto durante las clases, por lo que está indicado para cualquier edad o nivel, puede ayudar a tratar diferentes patologías, mejorar nuestro estado y prevenir futuras lesiones.
 
   ![image]({{ "/assets/img/fit.jpg" | relative_url }}){:class="imgccambiante"}
 
+#### BAILE NUPCIAL
 
-Fusce nec enim at arcu vehicula porttitor. Quisque eget pellentesque nisi. Sed a porta ipsum, ac maximus ipsum. Sed in dictum ex. Suspendisse sodales erat vitae mi dignissim, eu lacinia nisl ultricies. Sed nulla eros, dictum eu orci eget, convallis interdum urna. Curabitur erat eros, aliquam a nibh sed, venenatis sollicitudin ante. Donec finibus risus et sapien gravida, in iaculis nunc sollicitudin.
+Queréis tener un precioso recuerdo del día más feliz de vuestras vidas, ese es sin duda el primer baile juntos en matrimonio, tiene que ser único!
 
-Nulla nisi metus, vulputate vel felis ac, rhoncus iaculis sem. In metus ex, porttitor placerat arcu id, tristique vulputate libero. Nullam vitae hendrerit nulla. Aliquam ullamcorper libero et faucibus sodales. Proin id faucibus lacus. Praesent mollis nisl et libero lacinia, malesuada lacinia nulla malesuada. Integer tincidunt mi quis imperdiet accumsan. Aliquam hendrerit nulla ante.
-
-Pellentesque ligula sapien, tempor vel tellus eget, finibus efficitur arcu. Sed lobortis lacus eu risus vulputate lacinia ac ac libero. Pellentesque tempor neque vel ligula egestas ultrices. Mauris eu ornare ex. Fusce vel tincidunt enim. Morbi rhoncus, nibh a elementum efficitur, orci dolor tincidunt leo, eu scelerisque purus dolor sit amet elit. In blandit euismod felis id pellentesque. Curabitur quis fermentum felis. Maecenas sit amet rhoncus tortor. Aliquam suscipit sapien vitae nunc sagittis, in pharetra nisi rutrum. Pellentesque sodales massa sed hendrerit fringilla. Vestibulum quis ligula mi.
+![image]({{ "/assets/img/bailenupcial.jpg" | relative_url }}){:class="imgccambiante"}
 
 
