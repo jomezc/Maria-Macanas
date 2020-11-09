@@ -13,8 +13,8 @@
     ,stackoverflow.com,webdesginerwall-->
  </head>
  <body> <!-- CUERPO con "contenedores"-->
-     <div class = "titulo">
-        <a class = "titulo" href="/Maria-Macanas/" title="María Macanás logo">
+     <div class = "titulo2">
+        <a class = "titulo2" href="/Maria-Macanas/" title="María Macanás logo">
             <img alt="María Macanás logo" class = "imglogo" src= "{{ '/assets/img/tituloweb.jpg' | relative_url }}"  />
         </a>
      </div>
@@ -24,6 +24,9 @@
         {{ content }}
      </div>
 
+     <div class = "post-titulo">
+        <p><h2 class = "titulo-blog" >CLASES</h2></p>
+    </div>
      <section class = "post-anteriores">
         {% for post in site.posts  %}
         <div >

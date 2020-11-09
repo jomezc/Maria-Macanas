@@ -13,6 +13,19 @@
     
 }
 
+.titulo2{
+    width: auto;
+    height: fit-content;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    background: rgb(0, 0, 0);
+    margin: 0 auto;
+    font-size:4vw;
+    margin-bottom: 2em;
+    
+    
+}
+
 .imglogo
 {
     width: 100%;
@@ -26,25 +39,18 @@
     height: auto;
 }
 
-.imgccambiante{
-    width: 100%;
-    max-width: auto;
-    height: auto;
-}
 
 .imgcontenido{
-    width: 100%;
+    width: 80%;
     max-width: auto;
-    height: 100%;
-    background-attachment: fixed;    
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .contenido1 {
     width: auto;
     font-size: 2vw;
-   /* background: rgb(73, 77, 76);*/
     color: rgb(19, 14, 14);
     margin: 0 auto;
     margin-bottom: 4em;
@@ -57,9 +63,6 @@
 body{
     width: auto;
     color: #0101;
-    grid-template-columns: 
-    1fr [container-start]repeat(6,minmax(100px,250px))[container-end] 1 fr;
-    grid-gap:2em 1em;
     background-color: #fdfdfd;
     
 }
@@ -74,16 +77,22 @@ footer{
     margin-top: 2rem;
 }
 
-
-.post-anteriores{
+.post-titulo{
     background:#313131;
     font-size: 2vw;
-    padding: 2em 0;
     color: white;
-    display: grid;
     margin-top: 4em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.post-anteriores{
+    margin-top: 0;
+    background:#313131;
+    font-size: 2vw;
+    padding: 2% 2% 2% 2%;
+    color: white;
     display: flex;  
-    columns: 100px 2;
 }
 
 .post-descr{
@@ -164,8 +173,12 @@ div#pase figure {
 }
 
 @keyframes moverse-izq{
-    0%{left: -200%; }
-    50%{left: -100%;}
+    
+    
+    0%{left: -400%; }
+    25%{left: -300%; }
+    50%{left: -200%; }
+    75%{left: -100%;}
     100%{left: 0%;}
 
 }        
@@ -189,4 +202,11 @@ div#pase figure {
     height: 540px;
     
 
+}
+
+h2 {
+    display: block;
+    font-size: 2 em;
+    font-weight: bold;
+    margin-bottom: -0.7em;
 }

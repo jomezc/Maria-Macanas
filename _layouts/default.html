@@ -25,19 +25,25 @@
         <div id="pase">
             <figure>
                
-                
-                <img src="{{ '/assets/img/03.png' | relative_url }}"  alt="fit">   
+                <img src="{{ '/assets/img/04.png' | relative_url }}"  alt="fit">
+                <img src="{{ '/assets/img/01.png' | relative_url }}"  alt="fit">   
                 <img src="{{ '/assets/img/02.png' | relative_url }}"  alt="fit">  
-                <img src="{{ '/assets/img/01.png' | relative_url }}"  alt="fit">         
+                <img src="{{ '/assets/img/03.png' | relative_url }}"  alt="fit">    
+                       
             </figure>
             <div class="linea"></div>
            
         </div>
     </section>
 
+    <div class = "contenido1">
+        {{content}}
+    </div>
 
-
-     <section class = "post-anteriores">
+    <div class = "post-titulo">
+        <p><h2 class = "titulo-blog" >CLASES</h2></p>
+    </div>
+    <section class = "post-anteriores">
         {% for post in site.posts  %}
         <div >
         <h1 class = "titulo-blog" >{{ post.title}}</h1>
